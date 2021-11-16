@@ -1,0 +1,25 @@
+#banner {
+    width: 100%;
+    height: calc(100vh - 81px);
+    background-image: url("https://revistasaboresdosul.com.br/wp-content/uploads/2016/11/parrilla-del-sur.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    .banner-text {
+      color: rgb(255, 255, 255);
+      text-shadow: 5px 5px 5px #222;
+      text-align: center;
+      width: 50%;
+  
+      h2 {
+        font-size: 50px;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+  }
