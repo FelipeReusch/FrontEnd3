@@ -14,7 +14,7 @@ export default class App extends Component {
 
   async componentDidMount() {
     try {
-      const response = await api.get(`/users/FelipeReusch/repos`);
+      const response = await api.get(`localhost:8080`);
       this.setState({ enderecos: response.data});
     } catch (error) {
       Swal.fire({
